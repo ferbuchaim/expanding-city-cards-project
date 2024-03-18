@@ -44,6 +44,7 @@ body {
 
 .panel.active {
   flex: 5;
+  text-shadow: 2px 2px 2px black, 0 0 1px black, 0 0 0.2px black;
 }
 
 .panel p {
