@@ -46,6 +46,19 @@ body {
   flex: 5;
 }
 
+.panel p {
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active p {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 1s;
+}
+
 .panel.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.5s;
